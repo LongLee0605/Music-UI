@@ -325,8 +325,11 @@ article {
     margin-top: calc(100vh - 50vh);
   }
   .playlist {
-    height: 50vh;
+    height: 40vh;
     overflow-y: auto;
+  }
+  .song{
+    padding: 8px 0;
   }
   .song-contain {
     width: 100%;
@@ -340,11 +343,14 @@ article {
     -webkit-line-clamp: 1;
     overflow: hidden;
   }
-
+  .main-content {
+    margin: 0 24px;
+  }
   .main-content-text {
     padding-top: 2rem;
   }
-  .controls,#progress{
+  .controls,
+  #progress {
     max-width: 350px;
     width: 70%;
   }
